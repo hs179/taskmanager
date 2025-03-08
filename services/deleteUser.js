@@ -3,7 +3,7 @@ import User from "../models/user.js";
 const deleteUser = async(req,res) =>{
     try {
         const{email} = req.body;
-    // check if user present in db
+    // check if user present in database
     const userPresent = await User.findOne({email});
     if(!userPresent){
       return  res.status(400).json({message:"Invalid email"})
