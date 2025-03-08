@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "types": ["node"],
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "allowJs": true,
+    "checkJs": true,
+    "outDir": "./dist"
+  },
+  "include": [
+    "*.js",
+    "**/*.js",
+    "*.ts",
+    "**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+} 
